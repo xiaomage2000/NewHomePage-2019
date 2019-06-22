@@ -22,13 +22,18 @@
 <body>
   <!-- 导航栏 -->
   <header class="container-fluid">
-    <div class="home-top">
-      <img src="./img/logo.png" alt="logo" class="home-top-logo">
-      <div class="home-top-right">
-        <input type="search" name="search" id="header-search">
-        <img src="./img/setting.png" alt="扩展" class="home-top-setting">
-      </div>
-    </div>
+      <div class="home-top">
+          <img src="./img/logo.png" alt="logo" class="home-top-logo">
+          <div class="home-top-right">
+            <img src="./img/pen.png" alt="" class="home-top-pen">
+            <span>在线投稿</span>
+            <span class="home-top-search-box">
+                <input type="search" name="search" id="header-search" value="请输入关键词" onfocus="this.value=''" onblur="this.value='请输入关键词'">
+                <img src="./img/search.png" alt="" class="home-top-search">
+            </span>
+            <img src="./img/setting.png" alt="扩展" class="home-top-setting">
+          </div>
+        </div>
     <nav>
       <ul class="header-nav">
         <li><a href="#">学校首页</a></li>

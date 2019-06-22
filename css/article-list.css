@@ -1,3 +1,35 @@
+.home-top-right {
+  font-size: 12px;
+  line-height: 16px;
+  color: #707070;
+}
+
+.home-top-pen {
+  width: 25px;
+  height: 25px;
+}
+
+.home-top-search-box {
+  display: inline;
+  position: relative;
+}
+
+#header-search {
+  width: 239px;
+  height: 29px;
+  border-radius: 5px;
+  text-indent: 0.75rem;
+  color: #707070;  
+}
+
+.home-top-search {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 16px;
+  bottom: 2px;
+}
+
 .header-nav {
   list-style-type: none;
   overflow: hidden;
